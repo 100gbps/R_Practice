@@ -1,0 +1,23 @@
+@relation buy_computer_2
+
+@attribute AGE {<=30,31..40,>40}
+@attribute INCOME {High,Medium,Low}
+@attribute STUDENT {No,Yes}
+@attribute CREDIT_RATING {Fair,Excellent}
+@attribute BUYS_COMPUTER {No,Yes}
+
+@data
+<=30,High,No,Fair,No
+<=30,High,No,Excellent,No
+31..40,High,No,Fair,Yes
+>40,Medium,No,Fair,Yes
+>40,Low,Yes,Fair,Yes
+>40,Low,Yes,Excellent,No
+31..40,Medium,Yes,Excellent,Yes
+<=30,Low,No,Fair,No
+<=30,Medium,Yes,Fair,Yes
+>40,Medium,Yes,Fair,Yes
+<=30,Medium,Yes,Excellent,Yes
+31..40,Medium,No,Excellent,Yes
+31..40,High,Yes,Fair,Yes
+>40,Medium,No,Excellent,No

@@ -1,0 +1,15 @@
+AGE,INCOME,STUDENT,CREDIT_RATING,BUYS_COMPUTER
+Youth,High,No,Fair,No
+Youth,High,No,Excellent,No
+MiddleAged,High,No,Fair,Yes
+Senior,Medium,No,Fair,Yes
+Senior,Low,Yes,Fair,Yes
+Senior,Low,Yes,Excellent,No
+MiddleAged,Medium,Yes,Excellent,Yes
+Youth,Low,No,Fair,No
+Youth,Medium,Yes,Fair,Yes
+Senior,Medium,Yes,Fair,Yes
+Youth,Medium,Yes,Excellent,Yes
+MiddleAged,Medium,No,Excellent,Yes
+MiddleAged,High,Yes,Fair,Yes
+Senior,Medium,No,Excellent,No
