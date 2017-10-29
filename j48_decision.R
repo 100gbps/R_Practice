@@ -1,0 +1,7 @@
+library(RWeka)
+library(partykit)
+iris_data <- read.csv("IRIS.csv",header = TRUE,sep = ",")
+tree <- J48(Species ~ Sepal.Length+Sepal.Width+Petal.Length+Petal.Width , data = iris_data)
+png("j48_decision.png")
+plot(tree)
+dev.off()
